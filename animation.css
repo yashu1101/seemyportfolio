@@ -1,0 +1,104 @@
+body {
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; */
+}
+
+
+.word {
+  margin: auto;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid white; */
+  /* border-top: 1px solid white; */
+  height: 30px;
+  color: white;
+  font: 300 normal 118% 'poppins';
+  transition: all 3s;
+
+
+}
+
+.word::after {
+  content: '';
+  border-right: 2px solid;
+  margin: 0 2px;
+  animation: blink 0.4s ease infinite alternate;
+  
+}
+
+
+@keyframes blink {
+  from {
+    border-color: white;
+  }
+  
+  to {
+    border-color: rgba(255, 25, 25, 0);
+  }
+}
+
+
+
+  
+ 
+
+@-webkit-keyframes shine {
+  
+  0%,
+  10% {
+    background-position: -1000px;
+  }
+  
+  20% {
+    background-position: top left;
+  }
+
+  90% {
+    background-position: top right;
+  }
+  
+  100% {
+    background-position: 1000px;
+  }
+}
+
+
+
+
+
+
+
+.section-title .hr-top{
+  border: 0;
+  background: linear-gradient(90deg,red,#c924ff,transparent, transparent,transparent,transparent,transparent);
+  width: 100%;
+  height: 2px;
+  opacity: 1;
+  animation: hrtopmove 7s linear infinite forwards;
+}
+.section-title .hr-bottom{
+  border: 0;
+  background: linear-gradient(90deg,transparent, transparent,transparent,transparent,transparent,red,#c924ff);
+  width: 100%;
+  height: 2px;
+  opacity: 1;
+  animation: hrbottommove 7s linear infinite forwards;
+}
+@keyframes hrtopmove {
+  from{
+    background-position: 0px;
+  }
+  to{
+    background-position: 977px;
+  }
+}
+@keyframes hrbottommove {
+  from{
+    background-position: 0px;
+  }
+  to{
+    background-position: -977px;
+  }
+}

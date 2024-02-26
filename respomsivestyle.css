@@ -1,0 +1,165 @@
+@media (max-width: 991px) {
+    .my-nav-menu {
+        background-color: azure;
+    }
+    .my-nav-menu .nav-link-2{
+        color: black;
+        background-color: red;
+        font-size: 14px;
+    }
+
+     .nav-link-2 {
+        color: rgba(0, 0, 0, 0.66);
+    }
+
+    /* #nav-element-1 {
+        color: rgb(0, 0, 0);
+    } */ 
+   
+}
+
+@media (max-width: 767px) {
+    .my-tab-ul {
+
+        outline: 0px solid black;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 400px) {
+    .mytablink .nav-link {
+
+        font-size: 13px;
+
+    }
+}
+
+@media (max-width: 360px) {
+
+    .home-h1 {
+        font-size: 118%;
+    }
+
+    .edu-list-ele {
+   
+       font-size: 13px;
+    }
+
+    .mycard {
+
+       
+        padding: 0px;
+        transition: all 0.3s;
+    }
+
+    .hr-style {
+        width: 100%;
+       
+    }
+
+    .section-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 27px auto;
+        padding: 0;
+    }
+
+    .section-title h1 {
+        font-size: 24px;
+        margin: 0;
+
+       
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .section-title hr {
+        margin: 5px 0px;
+        padding: -1px;
+        height: 0px;
+        color: inherit;
+        /* border: 4px solid red; */
+        border-top: var(--bs-border-width) solid;
+        opacity: 0.50;
+    }
+
+    .abt-img-sec {
+        padding: 0;
+    }
+
+    .abt-img {
+        padding: 0;
+    }
+    .mytablink .nav-pills {
+        --bs-nav-pills-border-radius: 0;
+        --bs-nav-pills-link-active-color: #fff;
+        --bs-nav-pills-link-active-bg: #0d6efd;
+        padding: 0px;
+        margin: 31px 0px;
+        /* border: 2px solid black; */
+    }
+}
+
+
+
+
+
+.myprogress {
+    height: 5px;
+    /* width: 260px; */
+    margin: 0px 0 20px 0;
+}
+
+.progress-title {
+    font-size: 13px;
+}
+
+.edu-list {
+    padding: 0px 0px;
+}
+
+
+
+
+@media (min-width: 401px) {
+    .my-tab-ul {
+
+        /* outline: 1px solid black; */
+
+    }
+
+    .home-h1 {
+        font-size: 150%;
+    }
+
+
+}
+
+@media (min-width: 766px) {
+    .my-tab-ul {
+
+        /* outline: 1px solid black; */
+
+    }
+
+
+
+}
+@media (min-width: 768px) {
+   .mytablink{
+    margin: 0 -12px;
+   }
+
+
+
+}
+
+@media (min-width:361px) {
+    .abt-img {
+        /* width: 100%; */
+        /* height: auto; */
+        padding: 38px;
+        /* opacity: 0.4; */
+    }
+}
